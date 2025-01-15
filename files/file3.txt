@@ -1,0 +1,91 @@
+    1  ls
+    2  date
+    3  cal
+    4  ps
+    5  pwd
+    6  cd README.md
+    7  ls
+    8  ls -al
+    9  cd .
+   10  cd ..
+   11  pwd
+   12  ls
+   13  cd ds2002-ync5ad/
+   14  cd ..
+   15  pwd
+   16  cd ..
+   17  pwd
+   18  ls
+   19  cd usr/
+   20  ls
+   21  cd ..
+   22  cd workspaces/
+   23  ls
+   24  cd ds2002-ync5ad/
+   25  cd ..
+   26  ls
+   27  pwd
+   28  ls -al
+   29  cd workspaces/
+   30  cd ..
+   31  cd ~
+   32  pwd
+   33  ls
+   34  pwd
+   35  ls -al
+   36  ls
+   37  cd ..
+   38  pwd
+   39  ls
+   40  cd workspaces/
+   41  cs ds2002-ync5ad/
+   42  cd ds2002-ync5ad/
+   43  touch file1.txt
+   44  ls
+   45  ls -al
+   46  touch file2.txt
+   47  touch file3.txt
+   48  ls
+   49  echo "test"
+   50  echo "test" > file1.txt 
+   51  ls -al
+   52  cat
+   53  ls
+   54  cat file1.txt 
+   55  cat file1.txt > file2.txt 
+   56  cat file2.txt 
+   57  cat "hi" >> file1.txt 
+   58  cat file1.txt >> file2.txt 
+   59  ls
+   60  mkdir files
+   61  clear
+   62  ls
+   63  mv file1.txt files/
+   64  clear
+   65  ls -al
+   66  touch file4.txt
+   67  touch file3.txt
+   68  cp file1.txt file1copy.txt
+   69  cp file2.txt file2copy.txt
+   70  clear
+   71  ls -al
+   72  mv file2.txt files/
+   73  mv file3.txt files/
+   74  mv file4.txt files/
+   75  mv file2copy.txt files/
+   76  clear
+   77  ls -al
+   78  top
+   79  ps
+   80  ps aux
+   81  cd files/
+   82  ps aux > file1.txt 
+   83  head file1
+   84  head file1.txt 
+   85  history
+   86  history > file2.txt 
+   87  head file2.txt 
+   88  clear | ls -al
+   89  history
+   90  cat file3.txt | grep "clear"
+   91  history >> file3.txt 
